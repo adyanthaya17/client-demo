@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Create a Centos server 7') {
             steps {
-                sh './home/jenkins/host-foreman-create.sh'
+                sh '/home/jenkins/host-foreman-create.sh'
             }
         }
 
