@@ -6,10 +6,5 @@ pipeline {
                 sh '/home/jenkins/host-foreman-create.sh'
             }
         }
-        stage('Waiting for host availability') { 
-            steps {
-                sh '/home/jenkins/test-ping.sh'
-            }
-        }
     }
 }
