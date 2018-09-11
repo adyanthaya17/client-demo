@@ -16,6 +16,10 @@ pipeline {
                 sh '/home/jenkins/stage5.sh'
             }
         }
+   }
+}
+
+
 #        stage('Checking if IP has been assigned') {
 #            steps {
 #                sh '/home/jenkins/stage3.sh'
@@ -25,6 +29,6 @@ pipeline {
 #            steps {
 #                sh '/home/jenkins/stage4.sh'
 #            }
-        }
-    }
-}
+#        }
+#    }
+#}
